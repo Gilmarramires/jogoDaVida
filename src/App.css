@@ -1,0 +1,38 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin-left: 350px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  justify-content: center;
+}
+
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.cell.alive {
+  background-color: #9bf784;
+}
+
+.iniciar {
+  border: 1px solid;
+  margin-top: 10px;
+  background-color: #9bf784;
+}
